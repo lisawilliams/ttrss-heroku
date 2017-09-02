@@ -1,3 +1,5 @@
+Recently I started to blog again, and created a new blog. As a result I wanted to create a companion RSS reader. I used TT-RSS and the following directions about hosting it on Heroku. It does work! 
+
 # TT-RSS on Heroku
 
 > It is possible and it works, even with free dynos!
