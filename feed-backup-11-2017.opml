@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <dateCreated>Sun, 19 Nov 2017 03:56:08 +0000</dateCreated>
+    <title>Tiny Tiny RSS Feed Export</title>
+  </head>
+  <body>
+    <outline text="Funeral &amp; Bereavement">
+      <outline type="rss" text="A Day In The Life of a Funeral Director – Blog | Pray Funeral Home" xmlUrl="http://blog.prayfuneral.com/category/a-day-in-the-life-of-a-funeral-director/feed/" htmlUrl="http://blog.prayfuneral.com"/>
+      <outline type="rss" text="CONFESSIONS OF A FUNERAL DIRECTOR" xmlUrl="https://www.calebwilde.com/feed/" htmlUrl="https://www.calebwilde.com"/>
+      <outline type="rss" text="Death &amp; the Maiden" xmlUrl="https://deadmaidens.com/feed/" htmlUrl="https://deadmaidens.com"/>
+      <outline type="rss" text="Frazer Consultants" xmlUrl="https://www.frazerconsultants.com/feed/" htmlUrl="https://www.frazerconsultants.com"/>
+      <outline type="rss" text="funeralOne Blog" xmlUrl="http://blog.funeralone.com/feed/" htmlUrl="http://blog.funeralone.com"/>
+      <outline type="rss" text="Google Alert - funeral director" xmlUrl="https://www.google.com/alerts/feeds/10783433638357504750/3446339266097135926" htmlUrl="https://www.google.com/alerts/feeds/10783433638357504750/"/>
+      <outline type="rss" text="Leading Funeral Publication" xmlUrl="http://connectingdirectors.com/feed" htmlUrl="http://connectingdirectors.com"/>
+      <outline type="rss" text="little miss funeral" xmlUrl="https://littlemissfuneral.com/feed/" htmlUrl="https://littlemissfuneral.com"/>
+      <outline type="rss" text="Modern Loss" xmlUrl="http://modernloss.com/feed/" htmlUrl="http://modernloss.com"/>
+      <outline type="rss" text="Morbid Anatomy" xmlUrl="https://morbidanatomy.blogspot.com/feeds/posts/default?alt=rss" htmlUrl="http://morbidanatomy.blogspot.com/"/>
+      <outline type="rss" text="Refuge In Grief" xmlUrl="http://www.refugeingrief.com/feed/" htmlUrl="http://www.refugeingrief.com"/>
+      <outline type="rss" text="The Order of the Good Death" xmlUrl="http://www.orderofthegooddeath.com/feed" htmlUrl="http://www.orderofthegooddeath.com"/>
+      <outline type="rss" text="What's Your Grief" xmlUrl="https://whatsyourgrief.com/feed/" htmlUrl="https://whatsyourgrief.com"/>
+    </outline>
+    <outline type="rss" text="Architecture Here and There" xmlUrl="https://architecturehereandthere.com/feed/" htmlUrl="https://architecturehereandthere.com"/>
+    <outline type="rss" text="Artsy News" xmlUrl="https://www.artsy.net/rss/news" htmlUrl="https://www.artsy.net"/>
+    <outline type="rss" text="Ask The Headhunter®" xmlUrl="http://www.asktheheadhunter.com/feed" htmlUrl="http://www.asktheheadhunter.com"/>
+    <outline type="rss" text="Autostraddle" xmlUrl="https://www.autostraddle.com/feed/" htmlUrl="https://www.autostraddle.com"/>
+    <outline type="rss" text="Best of The Atlantic" xmlUrl="http://theatlantic.com/feed/best-of/" htmlUrl="https://www.theatlantic.com/"/>
+    <outline type="rss" text="Bi Exposé | LGBTQ+ | Masculinity | Equality | Life | Science | Human Sexuality" xmlUrl="http://biexpose.com/feed/" htmlUrl="http://biexpose.com"/>
+    <outline type="rss" text="Blog - LAURA McKOWEN" xmlUrl="http://www.lauramckowen.com/blog?format=RSS" htmlUrl="http://www.lauramckowen.com/blog/"/>
+    <outline type="rss" text="Brian Cuban" xmlUrl="http://www.briancuban.com/blog/feed/" htmlUrl="http://www.briancuban.com/blog"/>
+    <outline type="rss" text="Eli Pousson" xmlUrl="https://elipousson.github.io/feed.xml" htmlUrl="https://elipousson.github.io//"/>
+    <outline type="rss" text="Feral Librarian" xmlUrl="https://chrisbourg.wordpress.com/feed/" htmlUrl="https://chrisbourg.wordpress.com"/>
+    <outline type="rss" text="Hyperallergic" xmlUrl="https://hyperallergic.com/feed/" htmlUrl="https://hyperallergic.com"/>
+    <outline type="rss" text="Melissa Gira Grant" xmlUrl="http://melissagiragrant.com/feed/" htmlUrl="http://melissagiragrant.com"/>
+    <outline type="rss" text="The Rainbow Times | New England's Largest LGBTQ Newspaper | Boston" xmlUrl="http://www.therainbowtimesmass.com/feed/" htmlUrl="http://www.therainbowtimesmass.com"/>
+    <outline text="tt-rss-prefs" schema-version="130">
+      <outline pref-name="ALLOW_DUPLICATE_POSTS" value="false"/>
+      <outline pref-name="AUTO_ASSIGN_LABELS" value="false"/>
+      <outline pref-name="BLACKLISTED_TAGS" value="main, generic, misc, uncategorized, blog, blogroll, general, news"/>
+      <outline pref-name="CDM_AUTO_CATCHUP" value="false"/>
+      <outline pref-name="CDM_EXPANDED" value="true"/>
+      <outline pref-name="_COLLAPSED_FEEDLIST" value="false"/>
+      <outline pref-name="_COLLAPSED_LABELS" value="false"/>
+      <outline pref-name="_COLLAPSED_SPECIAL" value="false"/>
+      <outline pref-name="_COLLAPSED_UNCAT" value="false"/>
+      <outline pref-name="COMBINED_DISPLAY_MODE" value="true"/>
+      <outline pref-name="CONFIRM_FEED_CATCHUP" value="true"/>
+      <outline pref-name="DEFAULT_ARTICLE_LIMIT" value="30"/>
+      <outline pref-name="_DEFAULT_INCLUDE_CHILDREN" value="false"/>
+      <outline pref-name="DEFAULT_UPDATE_INTERVAL" value="30"/>
+      <outline pref-name="_DEFAULT_VIEW_LIMIT" value="30"/>
+      <outline pref-name="_DEFAULT_VIEW_MODE" value="adaptive"/>
+      <outline pref-name="_DEFAULT_VIEW_ORDER_BY" value="feed_dates"/>
+      <outline pref-name="DIGEST_CATCHUP" value="false"/>
+      <outline pref-name="DIGEST_ENABLE" value="false"/>
+      <outline pref-name="DIGEST_PREFERRED_TIME" value="00:00"/>
+      <outline pref-name="ENABLE_API_ACCESS" value="false"/>
+      <outline pref-name="_ENABLED_PLUGINS" value=""/>
+      <outline pref-name="ENABLE_FEED_CATS" value="true"/>
+      <outline pref-name="FEEDS_SORT_BY_UNREAD" value="false"/>
+      <outline pref-name="FRESH_ARTICLE_MAX_AGE" value="24"/>
+      <outline pref-name="HIDE_READ_FEEDS" value="false"/>
+      <outline pref-name="HIDE_READ_SHOWS_SPECIAL" value="true"/>
+      <outline pref-name="LONG_DATE_FORMAT" value="D, M d Y - G:i"/>
+      <outline pref-name="_MOBILE_BROWSE_CATS" value="true"/>
+      <outline pref-name="_MOBILE_ENABLE_CATS" value="false"/>
+      <outline pref-name="_MOBILE_HIDE_READ" value="false"/>
+      <outline pref-name="_MOBILE_REVERSE_HEADLINES" value="false"/>
+      <outline pref-name="_MOBILE_SHOW_IMAGES" value="false"/>
+      <outline pref-name="_MOBILE_SORT_FEEDS_UNREAD" value="false"/>
+      <outline pref-name="ON_CATCHUP_SHOW_NEXT_FEED" value="false"/>
+      <outline pref-name="_PREFS_ACTIVE_TAB" value=""/>
+      <outline pref-name="_PREFS_SHOW_EMPTY_CATS" value="false"/>
+      <outline pref-name="PURGE_OLD_DAYS" value="60"/>
+      <outline pref-name="PURGE_UNREAD_ARTICLES" value="true"/>
+      <outline pref-name="REVERSE_HEADLINES" value="false"/>
+      <outline pref-name="SHORT_DATE_FORMAT" value="M d, G:i"/>
+      <outline pref-name="SHOW_CONTENT_PREVIEW" value="true"/>
+      <outline pref-name="SORT_HEADLINES_BY_FEED_DATE" value="false"/>
+      <outline pref-name="SSL_CERT_SERIAL" value=""/>
+      <outline pref-name="STRIP_IMAGES" value="false"/>
+      <outline pref-name="STRIP_UNSAFE_TAGS" value="true"/>
+      <outline pref-name="_THEME_ID" value="0"/>
+      <outline pref-name="USER_CSS_THEME" value=""/>
+      <outline pref-name="USER_LANGUAGE" value=""/>
+      <outline pref-name="USER_STYLESHEET" value=""/>
+      <outline pref-name="USER_TIMEZONE" value="Automatic"/>
+      <outline pref-name="VFEED_GROUP_BY_FEED" value="false"/>
+    </outline>
+    <outline text="tt-rss-labels" schema-version="130"/>
+    <outline text="tt-rss-filters" schema-version="130"/>
+  </body>
+</opml>
