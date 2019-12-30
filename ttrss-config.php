@@ -24,22 +24,12 @@
 	// ***********************************
 
 	define('SELF_URL_PATH', 'https://'.$_SERVER['SERVER_NAME'].'/');
-	// Full URL of your tt-rss installation. This should be set to the
-	// location of tt-rss directory, e.g. http://example.org/tt-rss/
-	// You need to set this option correctly otherwise several features
-	// including PUSH, bookmarklets and browser integration will not work properly.
-
-	define('FEED_CRYPT_KEY', '');
-	// WARNING: mcrypt is deprecated in php 7.1. This directive exists for backwards
-	// compatibility with existing installs, new passwords are NOT going to be encrypted.
-	// Use update.php --decrypt-feeds to decrypt existing passwords in the database while
-	// mcrypt is still available.
-
-	// Key used for encryption of passwords for password-protected feeds
-	// in the database. A string of 24 random characters. If left blank, encryption
-	// is not used. Requires mcrypt functions.
-	// Warning: changing this key will make your stored feed passwords impossible
-	// to decrypt.
+	// This should be set to a fully qualified URL used to access
+	// your tt-rss instance over the net.
+	// The value should be a constant string literal. Please don't use
+	// PHP server variables here - you might introduce security
+	// issues on your install and cause hard to debug problems.
+	// If your tt-rss instance is behind a reverse proxy, use the external URL.
 
 	define('SINGLE_USER_MODE', false);
 	// Operate in single user mode, disables all functionality related to
@@ -75,7 +65,6 @@
 
 	define('ICONS_DIR', "feed-icons");
 	define('ICONS_URL', "feed-icons");
-
 	// Local and URL path to the directory, where feed favicons are stored.
 	// Unless you really know what you're doing, please keep those relative
 	// to tt-rss main directory.
@@ -104,16 +93,6 @@
 	// When this option is not 0, users ability to control feed purging
 	// intervals is disabled and all articles (which are not starred)
 	// older than this amount of days are purged.
-
-	// *** PubSubHubbub settings ***
-
-	define('PUBSUBHUBBUB_HUB', '');
-	// URL to a PubSubHubbub-compatible hub server. If defined, "Published
-	// articles" generated feed would automatically become PUSH-enabled.
-
-	define('PUBSUBHUBBUB_ENABLED', false);
-	// Enable client PubSubHubbub support in tt-rss. When disabled, tt-rss
-	// won't try to subscribe to PUSH feed updates.
 
 	// ****************************
 	// *** Sphinx search plugin ***
@@ -156,6 +135,12 @@
 	// *** Email and digest settings ***
 	// *********************************
 
+	// Tiny Tiny RSS sends mail via PHP mail() function, unless handled
+	// by a plugin.
+
+	// If you need SMTP support, take a look here:
+	// https://git.tt-rss.org/fox/ttrss-mailer-smtp
+
 	define('SMTP_FROM_NAME', 'Tiny Tiny RSS');
 	define('SMTP_FROM_ADDRESS', 'noreply@your.domain.dom');
 	// Name, address and subject for sending outgoing mail. This applies
@@ -163,19 +148,6 @@
 
 	define('DIGEST_SUBJECT', '[tt-rss] New headlines for last 24 hours');
 	// Subject line for email digests
-
-	define('SMTP_SERVER', '');
-	// Hostname:port combination to send outgoing mail (i.e. localhost:25).
-	// Blank - use system MTA.
-
-	define('SMTP_LOGIN', '');
-	define('SMTP_PASSWORD', '');
-	// These two options enable SMTP authentication when sending
-	// outgoing mail. Only used with SMTP_SERVER.
-
-	define('SMTP_SECURE', '');
-	// Used to select a secure SMTP connection. Allowed values: ssl, tls,
-	// or empty.
 
 	// ***************************************
 	// *** Other settings (less important) ***
@@ -200,11 +172,13 @@
 	// Disabling auth_internal in this list would automatically disable
 	// reset password link on the login form.
 
-	define('LOG_DESTINATION', 'sql');
-	// Log destination to use. Possible values: sql (uses internal logging
+	define('LOG_DESTINATION', '');
+	// Error log destination to use. Possible values: sql (uses internal logging
 	// you can read in Preferences -> System), syslog - logs to system log.
 	// Setting this to blank uses PHP logging (usually to http server
 	// error.log).
+	// Note that feed updating daemons don't use this logging facility
+	// for normal output.
 
 	define('CONFIG_VERSION', 26);
 	// Expected config version. Please update this option in config.php
